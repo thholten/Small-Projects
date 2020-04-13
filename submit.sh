@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-#Removes package declaration and adds comment required to submit CS homework
+#Removes package declarations and adds comments necessary for homework submission
+#run from parent folder of package
 #arguments: <assignment type> <assignment number>
 
+    cd ${1}$2
     echo $(pwd)
     mkdir submissions/
     for file in *; do
