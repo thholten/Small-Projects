@@ -61,7 +61,6 @@ header > h1 {
   height: 500px;
   padding: 0px;
   margin: 7px auto;
-  border: 3px solid white;
   background-image: url("images/board.png");
 }
 
