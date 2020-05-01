@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;700&display=swap');
+
+* {
+
+}
+
+body {
+  background-color: #2c3036;
+  font-family: "Baloo Paaji 2", sans-serif;
+}
+
+
+header > h1 {
+  color:#5cc3ff;
+  font-size: 32pt;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#scoreboard {
+  width: 250px;
+  margin: auto;
+  padding: 10px 2px;
+  border: 3px solid green;
+  text-align: center;
+}
+
+#scoreboard-title {
+  position: relative;
+  top: -10px;
+  font-size: 36px;
+  color: white;
+  padding: 2px 2px 2px 2px;
+  display: block;
+  font-weight: bold;
+}
+
+.score-header {
+  font-size: 32pt;
+  color: white;
+  font-weight: 500;
+  border: 3px solid red;
+  padding: 0px 5px;
+  margin-top: -10px;
+}
+
+#scoreboard-colon {
+  font-size: 32pt;
+  margin: 0px 12px;
+}
+
+.score-val {
+  font-size: 24pt;
+  color: lightblue;
+  padding: 0px 12px;
+}
+
+#board {
+  width: 500px;
+  height: 500px;
+  padding: 0px;
+  margin: 7px auto;
+  background-image: url("images/board.png");
+}
+
+.board-space {
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  font-size: 56pt;
+  text-align: center;
+  color: white;
+}
+
+.board-space:hover {
+  cursor: pointer;
+  background-color: #848a8c;
+}
+
+#board-1 {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+#board-2 {
+  position: relative;
+  top: 15px;
+  left: 62px;
+}
+
+#board-3 {
+  position: relative;
+  top: 15px;
+  left: 105px;
+}
+
+#board-4 {
+  position: relative;
+  top: 65px;
+  left: 15px;
+}
+
+#board-5 {
+  position: relative;
+  top: 65px;
+  left: 62px;
+}
+
+#board-6 {
+  position: relative;
+  top: 65px;
+  left: 105px;
+}
+
+#board-7 {
+  position: relative;
+  top: 108px;
+  left: 15px;
+}
+
+#board-8 {
+  position: relative;
+  top: 108px;
+  left: 62px;
+}
+
+#board-9 {
+  position: relative;
+  top: 108px;
+  left: 105px;
+}
