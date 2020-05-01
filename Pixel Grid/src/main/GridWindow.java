@@ -53,6 +53,7 @@ public class GridWindow extends Application {
 		for (int i = 0; i < Math.pow((500 / 20) - (2 * 2.5), 2); i++) {
 
 			Rectangle pixel = new Rectangle(20, 20);
+			pixel.setFill(Color.LIGHTGRAY);
 			pixel.setStroke(Color.WHITE);
 			pixel.setStrokeWidth(1.25);
 
@@ -61,10 +62,10 @@ public class GridWindow extends Application {
 			});
 
 			pixel.setOnMousePressed(e -> {
-				if (pixel.getFill().equals(Paint.valueOf("black"))) {
-					pixel.setFill(Paint.valueOf("lightGray"));
+				if (pixel.getFill().equals(Color.BLACK)) {
+					pixel.setFill(Color.LIGHTGRAY);
 				} else
-					pixel.setFill(Paint.valueOf("black"));
+					pixel.setFill(Color.BLACK);
 
 			});
 
@@ -87,7 +88,7 @@ public class GridWindow extends Application {
 		HBox hboxControls = new HBox(5);
 		hboxControls.setAlignment(Pos.CENTER);
 		
-		ClearColor clearColor = ClearColor.BLACK;
+		ClearColor clearColor = ClearColor.LIGHTGRAY;
 
 		Button buttonClear = new Button("Clear");
 		buttonClear.setOnAction(e -> {
