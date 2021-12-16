@@ -1,4 +1,4 @@
 # Small Projects
 
-Small (usually single file) scripts and projects.
+Small scripts and projects.
 
